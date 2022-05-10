@@ -379,7 +379,7 @@ nav ul{
   padding: 1.5rem 0;
 }
 
-.us-text{
+.u-text{
     padding: 3rem;
     margin: auto;
     max-width: 1030px;
@@ -397,7 +397,7 @@ nav ul{
 
 .features{
   display: flex;
-  padding-bottom: 3rem;
+  padding-bottom: 1.5rem;
   padding-right: 3rem;
   padding-left: 3rem;
   flex-wrap: wrap;
@@ -406,15 +406,16 @@ nav ul{
 }
 
 .feature-container{
-  width: 300px;
-  padding: 1rem 1rem 0 1rem;
-  /* box-shadow: 2px 8px 10px #729ebb; */
-  /* background: white; */
-  border-radius: 15px;
+  max-width: 560px;
   text-align: center;
   display: flex;
   flex-direction: column;
   margin: 1rem;
+}
+
+.feature-container img{
+  width: 100%;
+  height: auto;
 }
 
 .feature-container i{
@@ -425,7 +426,7 @@ nav ul{
 }
 
 @media (max-width:860px){
-  .us-text p{
+  .u-text p{
     font-size: 1.2rem;
   }
 }
